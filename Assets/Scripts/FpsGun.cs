@@ -1,4 +1,4 @@
-﻿using Photon.Pun;
+using Photon.Pun;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using System.Collections;
@@ -6,21 +6,21 @@ using System.Collections;
 public class FpsGun : MonoBehaviour {
 
     [SerializeField]
-    private int damagePerShot = 20;
+    private int damagePerShot = 20; // The amt of damage inflicted per shot
     [SerializeField]
-    private float timeBetweenBullets = 0.2f;
+    private float timeBetweenBullets = 0.2f; // The delay between consecutive shots
     [SerializeField]
-    private float weaponRange = 100.0f;
+    private float weaponRange = 100.0f; // The max range of the gun
     [SerializeField]
-    private TpsGun tpsGun;
+    private TpsGun tpsGun; // A reference to the third person shoooter(TPS) gun script
     [SerializeField]
-    private ParticleSystem gunParticles;
+    private ParticleSystem gunParticles; // represents gun's particle effect
     [SerializeField]
-    private LineRenderer gunLine;
+    private LineRenderer gunLine; // renders a line representing the gun's paricle effect
     [SerializeField]
-    private Animator animator;
+    private Animator animator; // component used for firing animations
     [SerializeField]
-    private Camera raycastCamera;
+    private Camera raycastCamera; // the camera used for raycasting to detect hits.
 
     private float timer;
 
