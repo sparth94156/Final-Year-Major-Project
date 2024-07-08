@@ -49,3 +49,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+/.github
+LICENSE
