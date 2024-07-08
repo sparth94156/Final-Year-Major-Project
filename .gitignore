@@ -50,5 +50,8 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-/.github
+# Some other Folders that don't need to be pushed
+.github/
 LICENSE
+assembly/
+UserSettings/
