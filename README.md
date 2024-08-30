@@ -1,6 +1,6 @@
 # Multiplayer-FPS
 
-A multiplayer first-person shooter game based on Unity3D. Different types of input devices are supported, including Kinect, Xbox controllers, Leap motion, and VR Glasses. (Each contained in a different branch, *UPDATE: those are not maintained since 2022, use at your own risk*)
+A multiplayer first-person shooter game based on Unity3D. Different types of input devices are supported, including Kinect, Xbox controllers, Leap motion, and VR Glasses.
 
 ## Requirement
 
